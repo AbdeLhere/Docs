@@ -1,4 +1,4 @@
-# Custom Pause Menu Script for FiveM by abdel4999
+# QB Readme
 
 ## Overview
 
