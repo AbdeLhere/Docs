@@ -78,7 +78,7 @@ The Custom Pause Menu Script is designed for FiveM servers to provide a highly c
        
     ```
 
-    \-- ( ox inventory)
+    \- ( ox inventory)
 
     ```lua
       ['maptablet'] = {
