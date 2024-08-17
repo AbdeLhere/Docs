@@ -20,6 +20,8 @@ layout:
 
 # AbdelEmporium Documentation
 
+***
+
 Welcome to the official documentation for AbdelEmporium, your ultimate source for premium FiveM scripts. This guide is designed to help you seamlessly integrate and customize our scripts to enhance your FiveM server experience.
 
 Within this documentation, you'll find:
@@ -32,4 +34,12 @@ Within this documentation, you'll find:
 
 Whether you're an experienced developer or new to FiveM, AbdelEmporium's documentation is here to support you at every step. Dive in and unlock the full potential of your FiveM server with our carefully crafted scripts!
 
+***
+
 {% embed url="https://www.youtube.com/@AbdelEmporium" %}
+
+{% embed url="https://abdelemporium.tebex.io" %}
+
+{% embed url="https://discord.gg/vVUxCXjd46" %}
+
+{% embed url="https://www.paypal.com/paypalme/ablframework?country.x=FR&locale.x=fr_FR" %}
