@@ -12,7 +12,7 @@ I am thrilled to present my new collection of minimap designs for FiveM. This pa
 ### **Useful Links 😊**
 
 * [Join Our Discord](https://discord.gg/jgM5jW3rrN)
-* [Visit Our Tebex Store](https://0resmonclub.tebex.io)
+* [Visit Our Tebex Store](https://abdelemporium.tebex.io/)
 * [Donations](https://paypal.me/ablframework?country.x=FR\&locale.x=fr\_FR)
 
 ### **Installation / Information 📖**
