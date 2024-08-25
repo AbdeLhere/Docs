@@ -53,31 +53,49 @@ ensure "script-name"
 Here's a sample configuration snippet:
 
 ```lua
+Config = Config or {}
+
 Config.Options = {
-    opacity = 90, -- Change background opacity
+    enableBackground = true,   -- Toggle background change on/off
+    opacity = 90,               -- Change background opacity
+    ChangeHeaderNames = true,  -- Toggle header name changes on/off
+    enableColorChanges = true, -- Toggle all color changes on/off
     RedGreenBlueAlpha = {
-        LINE = { -- Line color over options
-            ["RED"] = 255,
+
+        --- [[[[[[[[[[[[[  https://rgbacolorpicker.com  ]]]]]]]]]]]]]
+        --- [[[[[[[[[[[[[  https://rgbacolorpicker.com  ]]]]]]]]]]]]]
+        --- [[[[[[[[[[[[[  https://rgbacolorpicker.com  ]]]]]]]]]]]]]
+        --- [[[[[[[[[[[[[  https://rgbacolorpicker.com  ]]]]]]]]]]]]]
+        --- [[[[[[[[[[[[[  https://rgbacolorpicker.com  ]]]]]]]]]]]]]
+
+        HudLineColor = {
+            ["RED"] = 0,
             ["GREEN"] = 0,
             ["BLUE"] = 0,
+            
+           ---- Dont change ALPHA ❌
             ["ALPHA"] = 0.8,
         },
-        STYLE = { -- Pause Menu options color
-            ["RED"] = 112,
-            ["GREEN"] = 0,
-            ["BLUE"] = 2,
+        PauseMenuStyleColor = {
+            ["RED"] = 62,
+            ["GREEN"] = 62,
+            ["BLUE"] = 62,
+            
+           ---- Dont change ALPHA ❌
             ["ALPHA"] = 0.8,
         },
-        WAYPOINT = { -- Waypoint color
-            ["RED"] = 255,
+        MapWaypointColor = {
+            ["RED"] = 189,
             ["GREEN"] = 0,
-            ["BLUE"] = 0,
+            ["BLUE"] = 255,
+
+           ---- Dont change ALPHA ❌
             ["ALPHA"] = 0.8,
         },
     },
     Header = {
         ["TITLE"] = "Server Name Menu",
-        ["SUBTITLE"] = "The Beautiful City",
+        ["SUBTITLE"] = "The beautiful city",
         ["MAP"] = "Map",
         ["GAME"] = "Exit Game",
         ["LEAVE"] = "Return to Server List",
@@ -89,8 +107,9 @@ Config.Options = {
         ["KEYBIND"] = "Main Keybinds",
         ["EDITOR"] = "Rockstar Editor",
         ["SERVER_NAME"] = "Server Name",
-        ["SERVER_TEXT"] = "Welcome to Our City",
+        ["SERVER_TEXT"] = "Welcome to our city",
         ["SERVER_DISCORD"] = "discordlink.gg"
     }
 }
+
 ```
