@@ -29,7 +29,7 @@ I am thrilled to present my new collection of minimap designs for FiveM. This pa
 * Press `CTRL + SHIFT + F` to search for the following lines:
   * `SetMapZoomDataLevel`
   * `SetRadarZoom`
-  * `SetRadarAsInteriorThisFrame`
+  * `SetRadarAsInteriorThisFrame` " remove this one only if you have specific problems with the map "
 * Remove these lines if found, **but do not remove them from the new script!**
 
 #### Step 3: Ensuring the New Script
