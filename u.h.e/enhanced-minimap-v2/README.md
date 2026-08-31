@@ -1,7 +1,7 @@
 ---
 cover: ../../.gitbook/assets/FST Enhanced Minimap V2.jpg
 coverY: -481.6592592592593
-coverHeight: 700
+coverHeight: 623
 layout:
   width: default
   cover:
