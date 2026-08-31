@@ -1,7 +1,14 @@
 ---
 icon: plus-large
+cover: ../../.gitbook/assets/FST Enhanced Minimap V2.jpg
+coverY: -213.6888888888889
+coverHeight: 534
 layout:
   width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
   title:
     visible: false
   description:

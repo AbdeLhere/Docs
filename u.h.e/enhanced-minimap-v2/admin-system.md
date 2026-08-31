@@ -1,7 +1,13 @@
 ---
 icon: square-info
+cover: ../../.gitbook/assets/FST Enhanced Minimap V2.jpg
+coverY: 0
 layout:
   width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
   title:
     visible: false
   description:

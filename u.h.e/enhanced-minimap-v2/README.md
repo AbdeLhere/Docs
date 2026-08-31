@@ -1,6 +1,13 @@
 ---
+cover: ../../.gitbook/assets/FST Enhanced Minimap V2.jpg
+coverY: -481.6592592592593
+coverHeight: 700
 layout:
   width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
   title:
     visible: false
   description:
@@ -12,7 +19,7 @@ layout:
   pagination:
     visible: true
   metadata:
-    visible: true
+    visible: false
   tags:
     visible: true
   actions:
@@ -21,9 +28,4 @@ layout:
 
 # fst-enhanced-minimap-v2
 
-## FST Enhanced Minimap V2
-
-{% hint style="info" %}
-**check sub pages please**&#x20;
-{% endhint %}
-
+## <mark style="color:yellow;">**Check sub pages please ⚠️**</mark>

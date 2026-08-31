@@ -1,7 +1,13 @@
 ---
 icon: square-info
+cover: ../../.gitbook/assets/FST Enhanced Minimap V2.jpg
+coverY: -472.65700483091786
 layout:
   width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
   title:
     visible: false
   description:
@@ -56,7 +62,7 @@ Since categories are rendered from **top to bottom**, the category placed **lowe
 
 To achieve this, simply move `zone_names` **below** `underwater_routes` in the `category_order` table, as shown in the image below.
 
-<div align="right" data-with-frame="true"><figure><img src="../../../.gitbook/assets/before after (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="right" data-with-frame="true"><figure><img src="../../.gitbook/assets/before after (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -91,6 +97,6 @@ To achieve this, simply move `zone_names` **below** `underwater_routes` in the `
 {% step %}
 ### Results
 
-<figure><img src="../../../.gitbook/assets/Nouveau projet.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Nouveau projet.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}

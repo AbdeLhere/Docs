@@ -1,7 +1,13 @@
 ---
 icon: square-info
+cover: ../../.gitbook/assets/FST Enhanced Minimap V2.jpg
+coverY: 294.75040257648953
 layout:
   width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
   title:
     visible: false
   description:
@@ -30,7 +36,7 @@ If you have Roxwood or any other custom map enabled, along with weather cards or
 {% step %}
 #### Problem:&#x20;
 
-<figure><img src="../../../.gitbook/assets/logo on roxwood.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/logo on roxwood.jpg" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -66,6 +72,6 @@ Overlays.HALLOWEEN_SNOW_LOGO    = { { posX = -0.9999, posY = 0.4998, scaleX = 0.
 {% step %}
 ### Results
 
-<figure><img src="../../../.gitbook/assets/common problems sover docs (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/common problems sover docs (1).jpg" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
