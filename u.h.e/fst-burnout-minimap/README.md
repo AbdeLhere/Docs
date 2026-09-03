@@ -2,7 +2,7 @@
 description: >-
   a dark, fiery custom minimap featuring a burnt-out urban aesthetic, detailed
   roads, and glowing orange accents.
-cover: ../.gitbook/assets/burnout minimap thumb.jpg
+cover: ../../.gitbook/assets/burnout minimap thumb.jpg
 coverY: -492.44444444444446
 coverHeight: 276
 layout:
@@ -31,7 +31,13 @@ layout:
 
 # fst-burnout-minimap
 
-<figure><img src="../.gitbook/assets/burnout minimap thumb.jpg" alt=""><figcaption></figcaption></figure>
+### Preview
+
+{% content-ref url="preview.md" %}
+[preview.md](preview.md)
+{% endcontent-ref %}
+
+<figure><img src="../../.gitbook/assets/burnout minimap thumb.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Requirements
 
