@@ -1,6 +1,10 @@
 ---
-cover: ../.gitbook/assets/old_paper_map_thumb.png
+description: >-
+  a dark, fiery custom minimap featuring a burnt-out urban aesthetic, detailed
+  roads, and glowing orange accents.
+cover: ../.gitbook/assets/burnout minimap thumb.jpg
 coverY: -492.44444444444446
+coverHeight: 276
 layout:
   width: default
   cover:
@@ -25,19 +29,9 @@ layout:
     visible: true
 ---
 
-# fst-oldpaper-minimap
+# fst-burnout-minimap
 
-Handcrafted. Timeless. Drawn by Hand.
-
-FST Old Paper Minimap is a fully standalone and customizable FiveM minimap inspired by old navigation charts and sketchbooks. The map combines the original GTA layout with a hand-made paper aesthetic created by artist Doha E., giving the world a unique illustrated appearance while keeping roads and navigation clear.
-
-{% embed url="https://youtu.be/5CNZmaIwmqE" %}
-
-### About
-
-This map focuses on atmosphere and artistic presentation rather than modern styling. The illustrated paper textures, hand-made icons / details, and soft colors create a unique navigation experience while preserving the original GTA V layout.
-
-Everything can be configured directly inside `config.lua`, allowing you to customize the map to fit your server.
+<figure><img src="../.gitbook/assets/burnout minimap thumb.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Requirements
 
@@ -50,14 +44,14 @@ Optional: `ox_lib` (only required if the `/mapcolors` command is enabled)
 1. Place the resource inside your server resources folder.
 2. Make sure the folder name is exactly:
 
-```cfg
-fst_oldpaper_minimap
+```lua
+fst_burnout_minimap
 ```
 
 3. Add the resource to your `server.cfg`:
 
 ```cfg
-ensure fst_oldpaper_minimap
+ensure fst_burnout_minimap
 ```
 
 4. (Optional) Install and start `ox_lib` before this resource if you want to use the `/mapcolors` command.
@@ -79,7 +73,7 @@ Config.using_the_enhanced_minimap = true
 
 ```cfg
 ensure fst_enhanced_minimap
-ensure fst_oldpaper_minimap
+ensure fst_burnout_minimap
 ```
 
 3. Restart your server.
@@ -108,15 +102,15 @@ Config.enable_map_zoom_levels = true -- Enable different map zoom levels
 --  Set to true if you're using fst_enhanced_minimap alongside this resource
 --
 --  When enabled:
---  - All Western Minimap features are DISABLED (zoom, radar, blur, pause menu, commands, tile system)
+--  - All Burnout Minimap features are DISABLED (zoom, radar, blur, pause menu, commands, tile system)
 --  - Only the overlay textures in the stream folder are provided
---  - Enhanced Minimap detects and loads Western textures automatically
---  - Use Enhanced Minimap's tablet to toggle Western overlays on/off
+--  - Enhanced Minimap detects and loads Burnout textures automatically
+--  - Use Enhanced Minimap's tablet to toggle Burnout overlays on/off
 --
 --  When disabled (false):
---  - Western Minimap runs standalone with all features enabled
+--  - Burnout Minimap runs standalone with all features enabled
 --========================================================================================--
-Config.using_the_enhanced_minimap = true
+Config.using_the_enhanced_minimap = false
 
 Config.ZoomLevels = {
   { index = 0, zoomScale = 0.96,  zoomSpeed = 0.9, scrollSpeed = 0.08, tilesX = 0.0, tilesY = 0.0 },
@@ -144,12 +138,12 @@ Config.PauseMenu = {
   enable_color_picker = true, -- Allow players to change colors with a command
   command = "mapcolors",      -- Command to open color picker (/mapcolors)
 
-  -- Default colors (RGB format: 0-255) - Western Theme
+  -- Default colors (RGB format: 0-255) - Burnout theme
   colors = {
-    line = { enabled = true, red = 204, green = 119, blue = 34, alpha = 255 },      -- Burnt Orange (western leather)
-    background = { enabled = true, red = 101, green = 67, blue = 33, alpha = 115 }, -- Dark Brown (saddle leather)
-    pause_bg = { enabled = true, red = 139, green = 90, blue = 43, alpha = 70 },    -- Light Brown (desert sand)
-    waypoint = { enabled = true, red = 218, green = 165, blue = 32, alpha = 255 },  -- Goldenrod (western gold)
+    line = { enabled = true, red = 255, green = 114, blue = 24, alpha = 255 },      -- Burnt Orange (western leather)
+    background = { enabled = true, red = 94, green = 28, blue = 8, alpha = 200 }, -- Dark Brown (saddle leather)
+    pause_bg = { enabled = true, red = 94, green = 28, blue = 8, alpha = 200 },    -- Light Brown (desert sand)
+    waypoint = { enabled = true, red = 255, green = 114, blue = 24, alpha = 255 },  -- Goldenrod (western gold)
   },
 }
 
@@ -158,18 +152,48 @@ Config.overlays = {
   --- MAP THEMES ---
   -------------------
   mainmaptheme = {
-    enabled = true, -- Main desert/western map theme (includes all base and sea variants)
+    enabled = true, -- Main map theme
     opacity = 100,  -- Opacity/alpha value (0-100, default: 100)
   },
   -------------------
   --- MAP EXTENSIONS ---
   -------------------
+  roxwood = {
+    enabled = true, -- Roxwood map extension
+    opacity = 100,  -- Opacity/alpha value (0-100, default: 100)
+  },
   cayo_perico = {
-    enabled = false, -- Cayo Perico map
+    enabled = true, -- Cayo Perico map
+    opacity = 100,  -- Opacity/alpha value (0-100, default: 100)
+  },
+  cayoBridge = {
+    enabled = false, -- Cayo Bridge V3
     opacity = 100,   -- Opacity/alpha value (0-100, default: 100)
   },
-  cayo_bridge = {
-    enabled = false, -- Cayo Bridge
+  cayoBridge1 = {
+    enabled = false, -- Cayo Bridge V1
+    opacity = 100,   -- Opacity/alpha value (0-100, default: 100)
+  },
+  cayoBridge2 = {
+    enabled = false, -- Cayo Bridge V2
+    opacity = 100,  -- Opacity/alpha value (0-100, default: 100)
+  },
+  cayoBridge4 = {
+    enabled = false, -- Cayo Bridge V4
+    opacity = 100,   -- Opacity/alpha value (0-100, default: 100)
+  },
+}
+
+Config.load_order = {
+  "mainmaptheme", -- Main map theme - loads first (base layer)
+  "roxwood",      --
+  "cayo_perico",  --
+  "cayoBridge",   --
+  "cayoBridge1",  --
+  "cayoBridge2",  --
+  "cayoBridge4",  -- Loads last (top layer)
+}
+
     opacity = 100,   -- Opacity/alpha value (0-100, default: 100)
   },
   cayo_bridge1 = {

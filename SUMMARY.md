@@ -16,7 +16,6 @@
 
 ## UI & HUD Enhancements <a href="#u.h.e" id="u.h.e"></a>
 
-* [fst-enhanced-minimap](u.h.e/fst-enhanced-minimap.md)
 * [fst-enhanced-minimap-v2](u.h.e/enhanced-minimap-v2/README.md)
   * [Misalignment with Custom Maps](u.h.e/enhanced-minimap-v2/misalignment-with-custom-maps.md)
   * [Adjusting Overlay Priority](u.h.e/enhanced-minimap-v2/adjusting-overlay-priority.md)
@@ -24,6 +23,7 @@
   * [More Systems](u.h.e/enhanced-minimap-v2/more-systems.md)
 * [fst-oldpaper-minimap](u.h.e/fst-oldpaper-minimap.md)
 * [fst-western-minimap](u.h.e/fst-western-minimap.md)
+* [fst-burnout-minimap](u.h.e/fst-burnout-minimap.md)
 * [fst-pause-menu](u.h.e/fst-pause-menu/README.md)
   * [QB Readme](u.h.e/fst-pause-menu/qb-readme.md)
   * [ESX Readme](u.h.e/fst-pause-menu/esx-readme.md)
