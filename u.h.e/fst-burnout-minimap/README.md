@@ -33,10 +33,6 @@ layout:
 
 ### Preview
 
-{% content-ref url="preview.md" %}
-[preview.md](preview.md)
-{% endcontent-ref %}
-
 <figure><img src="../../.gitbook/assets/burnout minimap thumb.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Requirements
@@ -255,3 +251,13 @@ Config.load_order = {
 }
 
 ```
+
+## ​​​​Preview
+
+<figure><img src="../../.gitbook/assets/FiveM® by Cfx.re - AbdelEmporium built with FiveM Basic Server! 03_09_2026 21_07_00.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/FiveM® by Cfx.re - AbdelEmporium built with FiveM Basic Server! 03_09_2026 21_02_15.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/FiveM® by Cfx.re - AbdelEmporium built with FiveM Basic Server! 03_09_2026 21_02_08.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/FiveM® by Cfx.re - AbdelEmporium built with FiveM Basic Server! 03_09_2026 21_01_59.png" alt=""><figcaption></figcaption></figure>
